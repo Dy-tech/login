@@ -245,3 +245,45 @@ textarea {
   }
 }
 
+body {
+  margin: initial;
+  overflow: hidden;
+}
+
+.form {
+  width: 50%;
+  margin: 50% auto 50% auto;
+  background: mediumslateblue;
+  color: white;
+  font-family: Helvetica;
+  border-radius: 17px;
+  height: 250px;
+  padding: 10px;
+}
+
+.field {
+  background: slateblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 0 8px 0;
+}
+
+.fieldlabel {
+  display: block;
+  font-size: small;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.confirmbutton {
+  border: slateblue solid 3px;
+  background-color: white;
+  color: darkslateblue;
+  padding: 10px;
+  display: block;
+  width: fit-content;
+  border-radius: 5px;
+  cursor: pointer;
+}

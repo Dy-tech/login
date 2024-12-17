@@ -23,17 +23,20 @@
 </head>
 
 <body>
-  <form method="POST" action="">
-    <div>
-      <label for="userfield">Username</label>
-      <textarea rows="1" cols="30" placeholder="Username" required="required" name="userfield" id="userfield"></textarea>
-    </div>
-    <div>
-      <label for="passfield">Password</label>
-      <textarea rows="1" cols="30" placeholder="Password" required="required" name="passfield" id="passfield"></textarea>
-    </div>
-  </form>
-  <a onclick="redirect()">Get a link</a>
+  <div class="form">
+    <form method="POST" action="">
+      <div class="field">
+        <label for="userfield">Username</label>
+        <textarea rows="1" cols="30" required="required" name="userfield" id="userfield"></textarea>
+      </div>
+      <div class="field">
+        <label for="passfield">Password</label>
+        <textarea rows="1" cols="30" required="required" name="passfield" id="passfield"></textarea>
+      </div>
+    </form>
+    <a onclick="redirect()" class="confirmbutton">Get a link</a>
+  </div>
+  
   <script src="js/app.js"></script>
 
 </body>
